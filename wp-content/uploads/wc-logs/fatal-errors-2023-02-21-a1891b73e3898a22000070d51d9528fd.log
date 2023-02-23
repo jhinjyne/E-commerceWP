@@ -1,0 +1,110 @@
+2023-02-21T00:16:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\ultimate-member\includes\admin\templates\gdpr.php on line 1
+
+2023-02-21T00:17:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\DeprecatedOptions.php on line 76
+
+2023-02-21T00:17:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\ultimate-member\includes\core\class-files.php on line 5
+
+2023-02-21T00:17:32+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\includes\file.php on line 16
+
+2023-02-21T00:17:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\base\element-base.php on line 6
+
+2023-02-21T00:17:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\google-listings-and-ads\src\Internal\Requirements\PluginValidator.php on line 9
+
+2023-02-21T00:18:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBLogger.php on line 155
+
+2023-02-21T00:54:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T00:54:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2023-02-21T00:54:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_AsyncRequest_QueueRunner.php on line 60
+
+2023-02-21T01:40:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\includes\bookmark.php on line 381
+
+2023-02-21T02:07:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php on line 8
+
+2023-02-21T02:08:20+00:00 CRITICAL Out of memory (allocated 81788928) (tried to allocate 32768 bytes) in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\CustomerEffortScoreTracks.php on line 1
+
+2023-02-21T02:09:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T02:09:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler.php on line 121
+
+2023-02-21T02:09:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\formatting.php on line 2050
+
+2023-02-21T02:09:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version2\class-wc-rest-product-categories-v2-controller.php on line 19
+
+2023-02-21T02:09:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\API\OnboardingProductTypes.php on line 12
+
+2023-02-21T02:09:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\RemoteInboxNotifications\RuleEvaluator.php on line 9
+
+2023-02-21T02:09:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\API\Reports\Import\Controller.php on line 10
+
+2023-02-21T02:09:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\settings\admin-menu-items\tools-menu-item.php on line 8
+
+2023-02-21T02:09:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\API\Reports\Revenue\Stats\Controller.php on line 10
+
+2023-02-21T02:09:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T02:09:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\controls\hidden.php on line 4
+
+2023-02-21T02:09:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\modules\promotions\admin-menu-items\custom-code-promotion-item.php on line 5
+
+2023-02-21T02:09:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T02:09:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T02:09:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T02:13:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\API\MarketingCampaigns.php on line 18
+
+16
+
+2023-02-21T02:13:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version1\class-wc-rest-reports-v1-controller.php on line 13
+
+2023-02-21T02:13:45+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\API\PaymentGatewaySuggestions.php on line 13
+
+2023-02-21T02:13:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T02:13:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version1\class-wc-rest-product-attributes-v1-controller.php on line 11
+
+2023-02-21T02:13:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version1\class-wc-rest-product-attributes-v1-controller.php on line 11
+
+2023-02-21T03:24:14+00:00 CRITICAL syntax error, unexpected token "endif", expecting "," or ";" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\themes\Ecommercetheme\index.php on line 17
+
+2023-02-21T03:24:39+00:00 CRITICAL syntax error, unexpected token "endif", expecting "," or ";" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\themes\Ecommercetheme\index.php on line 17
+
+2023-02-21T03:25:40+00:00 CRITICAL syntax error, unexpected token "endif", expecting "," or ";" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\themes\Ecommercetheme\index.php on line 17
+
+2023-02-21T03:40:09+00:00 CRITICAL syntax error, unexpected token "endif", expecting "," or ";" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\themes\Ecommercetheme\index.php on line 17
+
+2023-02-21T03:52:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T03:55:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T03:57:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T03:57:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\core\kits\documents\tabs\theme-style-form-fields.php on line 10
+
+2023-02-21T03:57:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\core\breakpoints\breakpoint.php on line 8
+
+2023-02-21T03:57:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T03:57:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\core\kits\documents\tabs\theme-style-images.php on line 10
+
+2023-02-21T04:00:19+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-21T05:22:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\gateways\paypal\class-wc-gateway-paypal.php on line 15
+
+2023-02-21T05:28:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T05:28:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T05:28:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T05:29:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T05:29:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T05:29:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-02-21T05:29:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+

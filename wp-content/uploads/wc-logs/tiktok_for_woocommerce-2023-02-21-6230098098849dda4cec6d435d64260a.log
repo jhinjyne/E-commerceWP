@@ -1,0 +1,82 @@
+2023-02-21T02:05:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:05:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:06:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:06:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:06:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:06:20+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:06:21+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:06:21+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:07:15+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:07:17+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:07:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:07:18+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:07:20+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T02:07:22+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2023-02-21T06:17:51+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/disconnect/
+
+{"external_business_id":false,"business_platform":"WOO_COMMERCE","is_setup_page":0,"app_id":false}
+ ajax: no
+2023-02-21T06:17:52+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 2023022106175107E12B7CCA012F27B6B7
+x-tt-trace-host: 012c1aeeb5936da273e16b4a7f39f6ea4545fe1220ccee9f3740739e2bcc76b63cfbe8aea56522d7f0b47b1963d159d4021db3c6912cf8a2c2e20bcba1f9b6178955516573e3dd48d727f8790cecf5c5dd784566bbcfc4a67689f58f75967f30b602e8e6995e02fc4fdca6c3d719d130d0
+X-Origin-Response-Time: 15,23.61.205.87
+X-Akamai-Request-ID: 6e244157.7f8ea65d
+Expires: Tue, 21 Feb 2023 06:17:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 21 Feb 2023 06:17:52 GMT
+X-Cache: TCP_MISS from a124-106-175-109.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-61-205-87.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=50, origin; dur=15
+Server-Timing: inner; dur=6
+X-Parent-Response-Time: 65,124.106.175.109
+
+{"code":40104,"message":"The access_token is empty.","request_id":"2023022106175107E12B7CCA012F27B6B7"}
+
+2023-02-21T06:17:52+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+ ajax: no
+2023-02-21T06:17:52+00:00 DEBUG Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 2023022106175152668DAF5672D726EDA3
+x-tt-trace-host: 012c1aeeb5936da273e16b4a7f39f6ea4545fe1220ccee9f3740739e2bcc76b63c4f51838dfe570843eecafedf1454c2b532804094049111ca39fc31f6c79fe8c14ea31e6e1cbce91a77695326dafb4b27c46cd99e6b8ce707a5b2e3290a6d9e2f04d845f80829c23520e4e5c9561b1885
+X-Origin-Response-Time: 23,23.61.205.37
+X-Akamai-Request-ID: 744eb3a5.7f8ea871
+Expires: Tue, 21 Feb 2023 06:17:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 21 Feb 2023 06:17:53 GMT
+X-Cache: TCP_MISS from a124-106-175-109.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-61-205-37.deploy.akamaitechnologies.com (AkamaiGHost/11.0.0-46340752) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=50, origin; dur=23
+Server-Timing: inner; dur=15
+X-Parent-Response-Time: 73,124.106.175.109
+
+{"code":40001,"message":"Permission denied.","request_id":"2023022106175152668DAF5672D726EDA3"}
+
