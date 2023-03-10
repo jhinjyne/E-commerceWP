@@ -40,23 +40,23 @@ function has_children() {
 }
 
 
-add_action( 'um_after_form_submission', 'um_store_form_data', 10, 2 );
+// add_action( 'um_after_form_submission', 'um_store_form_data', 10, 2 );
 
-function um_store_form_data( $args ) {
+// function um_store_form_data( $args ) {
 
-    global $wpdb;
+//     global $wpdb;
 
-    $table_name = $wpdb->prefix . 'um_form_data_user';
+//     $table_name = $wpdb->prefix . 'um_form_data_user';
 
-    $data = array(
-		'username' => $args['data']['username'],
-        'name' => $args['data']['first_name'] . ' ' . $args['data']['last_name'],
-        'email' => $args['data']['user_email'],
-        'password' => $args['data']['password']
-    );
+//     $data = array(
+// 		'username' => $args['data']['username'],
+//         'name' => $args['data']['first_name'] . ' ' . $args['data']['last_name'],
+//         'email' => $args['data']['user_email'],
+//         'password' => $args['data']['password']
+//     );
 
-    $wpdb->insert( $table_name, $data );
-}
+//     $wpdb->insert( $table_name, $data );
+// }
 
 
 
