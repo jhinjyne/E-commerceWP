@@ -1,0 +1,9 @@
+2023-03-07T00:58:42+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 547f39b6d6fa0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+

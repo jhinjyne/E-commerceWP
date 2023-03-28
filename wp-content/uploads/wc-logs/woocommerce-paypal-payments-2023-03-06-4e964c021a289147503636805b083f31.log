@@ -1,0 +1,151 @@
+2023-03-06T00:28:30+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/PXJMMDZP7GJFU
+Response Debug ID: 6e8ea202e619e
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:28:31+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/PXJMMDZP7GJFU
+Response Debug ID: 40919cd8a1de5
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:28:33+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/notifications/webhooks
+Response Debug ID: ba677bfeef003
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:32:12+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 806f24620d59c
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:32:13+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/PXJMMDZP7GJFU
+Response Debug ID: bc6bb16458c05
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:32:14+00:00 DEBUG GET https://api.sandbox.paypal.com/v1/customer/partners/MPMFHQTVMBZ6G/merchant-integrations/PXJMMDZP7GJFU
+Response Debug ID: 9de6d8c9d81f7
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:34:40+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"PHP","value":"139.00","breakdown":{"item_total":{"currency_code":"PHP","value":"139.00"},"shipping":{"currency_code":"PHP","value":"0.00"},"tax_total":{"currency_code":"PHP","value":"0.00"}}},"description":"","items":[{"name":"LARQ Pitcher PureVis","unit_amount":{"currency_code":"PHP","value":"139.00"},"quantity":1,"description":"The LARQ Pitcher uses a unique 2-step process to improve the quality of your water using PureVis\u2122 and Nano Zero filter techno","sku":"","category":"PHYSICAL_GOODS"}],"payee":{"merchant_id":"PXJMMDZP7GJFU"},"shipping":{"name":{"full_name":" "},"address":{"country_code":"PH","address_line_1":"binaobao bantayan cebu","address_line_2":"lapu lapu cebu","admin_area_1":"CEB","admin_area_2":"cebu","postal_code":"6000"}}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"SET_PROVIDED_ADDRESS","landing_page":"LOGIN","locale":"en-US","brand_name":"LARQ","return_url":"http:\/\/localhost\/learning%20wordpress\/wordpress-6.1.1\/wordpress\/learning%20wordpress\/wordpress-6.1.1\/wordpress\/?wc-ajax=ppc-return-url","cancel_url":"http:\/\/localhost\/learning%20wordpress\/wordpress-6.1.1\/wordpress\/?page_id=57"},"payer":{"email_address":"usmandde3501@gmail.com","name":{"given_name":"chan","surname":"del"},"address":{"country_code":"PH","address_line_1":"binaobao bantayan cebu","address_line_2":"lapu lapu cebu","admin_area_1":"CEB","admin_area_2":"cebu","postal_code":"6000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"09219935347"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 49a88d0f506d2
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2023-03-06T00:36:43+00:00 DEBUG  https://api.sandbox.paypal.com/v2/checkout/orders/427145703R621830E
+Response Debug ID: 809e4526c813f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:36:58+00:00 DEBUG PATCH https://api.sandbox.paypal.com/v2/checkout/orders/427145703R621830E
+Request Body: [{"op":"replace","value":{"reference_id":"default","amount":{"currency_code":"PHP","value":"139.00","breakdown":{"item_total":{"currency_code":"PHP","value":"139.00"},"shipping":{"currency_code":"PHP","value":"0.00"},"tax_total":{"currency_code":"PHP","value":"0.00"}}},"description":"","items":[{"name":"LARQ Pitcher PureVis","unit_amount":{"currency_code":"PHP","value":"139.00"},"quantity":1,"description":"The LARQ Pitcher uses a unique 2-step process to improve the quality of your water using PureVis\u2122 and Nano Zero filter techno","sku":"","category":"PHYSICAL_GOODS"}],"payee":{"merchant_id":"PXJMMDZP7GJFU"},"shipping":{"name":{"full_name":"chan del"},"address":{"country_code":"PH","address_line_1":"binaobao bantayan cebu","address_line_2":"lapu lapu cebu","admin_area_1":"CEB","admin_area_2":"cebu","postal_code":"6000"}},"custom_id":"263","invoice_id":"dfccca-263"},"path":"\/purchase_units\/@reference_id=='default'"}]
+Response Debug ID: 8a790514f8399
+Response: Array
+(
+    [code] => 204
+    [message] => No Content
+)
+
+
+2023-03-06T00:36:59+00:00 DEBUG  https://api.sandbox.paypal.com/v2/checkout/orders/427145703R621830E
+Response Debug ID: a358b3d89874f
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:37:00+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders/427145703R621830E/capture
+Response Debug ID: 504bbddbd2931
+Response: Array
+(
+    [code] => 422
+    [message] => Unprocessable Entity
+)
+
+Response Body: {"name":"UNPROCESSABLE_ENTITY","details":[{"issue":"SHIPPING_ADDRESS_INVALID","description":"Provided shipping address is invalid."}],"message":"The requested action could not be performed, semantically incorrect, or failed business validation.","debug_id":"504bbddbd2931","links":[{"href":"https://developer.paypal.com/docs/api/orders/v2/#error-SHIPPING_ADDRESS_INVALID","rel":"information_link","method":"GET"}]}
+
+2023-03-06T00:37:00+00:00 WARNING Failed to capture order. PayPal API response: [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-SHIPPING_ADDRESS_INVALID
+2023-03-06T00:37:00+00:00 ERROR Payment failed: Failed to process the payment. Please try again or contact the shop admin. [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-SHIPPING_ADDRESS_INVALID PayPalGateway.php:525 [UNPROCESSABLE_ENTITY] The requested action could not be performed, semantically incorrect, or failed business validation. https://developer.paypal.com/docs/api/orders/v2/#error-SHIPPING_ADDRESS_INVALID OrderEndpoint.php:327
+2023-03-06T00:37:35+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders
+Request Body: {"intent":"CAPTURE","purchase_units":[{"reference_id":"default","amount":{"currency_code":"PHP","value":"139.00","breakdown":{"item_total":{"currency_code":"PHP","value":"139.00"},"shipping":{"currency_code":"PHP","value":"0.00"},"tax_total":{"currency_code":"PHP","value":"0.00"}}},"description":"","items":[{"name":"LARQ Pitcher PureVis","unit_amount":{"currency_code":"PHP","value":"139.00"},"quantity":1,"description":"The LARQ Pitcher uses a unique 2-step process to improve the quality of your water using PureVis\u2122 and Nano Zero filter techno","sku":"","category":"PHYSICAL_GOODS"}],"payee":{"merchant_id":"PXJMMDZP7GJFU"},"shipping":{"name":{"full_name":"chan del"},"address":{"country_code":"PH","address_line_1":"binaobao bantayan cebu","address_line_2":"lapu lapu cebu","admin_area_1":"CEB","admin_area_2":"cebu","postal_code":"6000"}}}],"application_context":{"user_action":"CONTINUE","shipping_preference":"SET_PROVIDED_ADDRESS","landing_page":"LOGIN","locale":"en-US","brand_name":"LARQ","return_url":"http:\/\/localhost\/learning%20wordpress\/wordpress-6.1.1\/wordpress\/learning%20wordpress\/wordpress-6.1.1\/wordpress\/?wc-ajax=ppc-return-url","cancel_url":"http:\/\/localhost\/learning%20wordpress\/wordpress-6.1.1\/wordpress\/?page_id=57"},"payer":{"email_address":"usmandde3501@gmail.com","name":{"given_name":"chan","surname":"del"},"address":{"country_code":"PH","address_line_1":"binaobao bantayan cebu","address_line_2":"lapu lapu cebu","admin_area_1":"CEB","admin_area_2":"cebu","postal_code":"6000"},"phone":{"phone_type":"HOME","phone_number":{"national_number":"09219935347"}}},"payment_method":{"payee_preferred":"IMMEDIATE_PAYMENT_REQUIRED","payer_selected":"PAYPAL"}}
+Response Debug ID: 357da01ae6ca1
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2023-03-06T00:38:32+00:00 DEBUG  https://api.sandbox.paypal.com/v2/checkout/orders/6HF97120X84510541
+Response Debug ID: e3f3e56a92b89
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:38:47+00:00 DEBUG PATCH https://api.sandbox.paypal.com/v2/checkout/orders/6HF97120X84510541
+Request Body: [{"op":"replace","value":{"reference_id":"default","amount":{"currency_code":"PHP","value":"139.00","breakdown":{"item_total":{"currency_code":"PHP","value":"139.00"},"shipping":{"currency_code":"PHP","value":"0.00"},"tax_total":{"currency_code":"PHP","value":"0.00"}}},"description":"","items":[{"name":"LARQ Pitcher PureVis","unit_amount":{"currency_code":"PHP","value":"139.00"},"quantity":1,"description":"The LARQ Pitcher uses a unique 2-step process to improve the quality of your water using PureVis\u2122 and Nano Zero filter techno","sku":"","category":"PHYSICAL_GOODS"}],"payee":{"merchant_id":"PXJMMDZP7GJFU"},"shipping":{"name":{"full_name":"chan del"},"address":{"country_code":"PH","address_line_1":"binaobao bantayan cebu","address_line_2":"lapu lapu cebu","admin_area_1":"CEB","admin_area_2":"cebu","postal_code":"6000"}},"custom_id":"264","invoice_id":"dfccca-264"},"path":"\/purchase_units\/@reference_id=='default'"}]
+Response Debug ID: edf4c82a10063
+Response: Array
+(
+    [code] => 204
+    [message] => No Content
+)
+
+
+2023-03-06T00:38:48+00:00 DEBUG  https://api.sandbox.paypal.com/v2/checkout/orders/6HF97120X84510541
+Response Debug ID: e31af229296c2
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
+2023-03-06T00:38:50+00:00 DEBUG POST https://api.sandbox.paypal.com/v2/checkout/orders/6HF97120X84510541/capture
+Response Debug ID: 690d8f4ba05d5
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+

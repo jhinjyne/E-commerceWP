@@ -1,0 +1,10 @@
+2023-03-07T01:31:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\WcPayWelcomePage.php on line 205
+
+2023-03-07T01:31:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 2268
+
+2023-03-07T01:31:47+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 2268
+
+2023-03-07T01:31:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 2268
+
+2023-03-07T12:43:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 77
+

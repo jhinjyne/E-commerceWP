@@ -1,0 +1,4 @@
+2023-03-15T03:51:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\controls\slider.php on line 6
+
+2023-03-15T03:53:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\includes\plugin.php on line 332
+

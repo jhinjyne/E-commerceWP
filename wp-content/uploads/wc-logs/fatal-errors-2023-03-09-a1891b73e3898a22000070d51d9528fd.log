@@ -1,0 +1,14 @@
+2023-03-09T01:46:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Domain\Services\CreateAccount.php on line 72
+
+2023-03-09T01:47:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\core\base\background-task.php on line 12
+
+2023-03-09T01:47:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\core\base\background-task.php on line 12
+
+2023-03-09T01:47:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\autoloader.php on line 293
+
+2023-03-09T01:47:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-03-09T01:49:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\Requests\Transport\cURL.php on line 165
+
+2023-03-09T05:13:58+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\wp-mail-smtp\vendor_prefixed\guzzlehttp\psr7\src\functions_include.php on line 6
+

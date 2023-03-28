@@ -1,0 +1,6 @@
+2023-03-08T06:01:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\RemoteInboxNotifications\RuleEvaluator.php on line 9
+
+2023-03-08T06:01:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce-paypal-payments\vendor\composer\ClassLoader.php on line 384
+
+2023-03-08T06:01:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Assets\Api.php on line 73
+

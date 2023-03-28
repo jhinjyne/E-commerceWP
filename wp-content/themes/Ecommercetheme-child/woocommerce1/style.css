@@ -1,0 +1,29 @@
+
+/* style for the product page */
+/* Set the container width to 100% */
+.woocommerce ul.products {
+	width: 100%;
+  }
+  
+  /* Set the width of each product item to 48% to display two columns */
+  .woocommerce ul.products li.product {
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: 30px;
+  }
+  
+  /* Clear the float after every second item */
+  .woocommerce ul.products li.product:nth-child(2n+1) {
+	clear: both;
+  }
+  
+  /* Adjust the product image size and alignment */
+  .woocommerce ul.products li.product a img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+  }
+  
+/* end of product style  */

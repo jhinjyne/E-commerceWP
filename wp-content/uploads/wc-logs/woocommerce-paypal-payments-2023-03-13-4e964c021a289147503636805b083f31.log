@@ -1,0 +1,13 @@
+2023-03-13T01:12:53+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Request failed. WP error message: cURL error 28: SSL connection timeout
+
+2023-03-13T01:12:54+00:00 WARNING Could not create token.
+2023-03-13T01:12:58+00:00 DEBUG POST https://api.sandbox.paypal.com/v1/oauth2/token?grant_type=client_credentials
+Response Debug ID: 403cd6f4d3ed0
+Response: Array
+(
+    [code] => 200
+    [message] => OK
+)
+
+
