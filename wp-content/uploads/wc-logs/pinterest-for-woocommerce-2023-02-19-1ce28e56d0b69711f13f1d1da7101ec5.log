@@ -1,9 +1,0 @@
-2023-02-19T11:39:44+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
-Status Code: 1
-API response: cURL error 6: Could not resolve host: api.pinterest.com
-2023-02-19T11:39:46+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
-Status Code: 1
-API response: cURL error 28: Resolving timed out after 10006 milliseconds
-2023-02-19T11:52:12+00:00 ERROR GET Request: https://api.pinterest.com/ads/v4/advertisers/countries
-Status Code: 401
-API response: Reconnect to your Pinterest account

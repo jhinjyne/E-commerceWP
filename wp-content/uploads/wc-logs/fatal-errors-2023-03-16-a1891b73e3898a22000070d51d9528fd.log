@@ -1,0 +1,6 @@
+2023-03-16T11:11:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\RemoteInboxNotifications\RuleProcessorInterface.php on line 8
+
+2023-03-16T11:12:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-03-16T11:13:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 4541
+

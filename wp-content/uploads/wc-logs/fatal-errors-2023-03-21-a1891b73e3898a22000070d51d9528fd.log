@@ -1,0 +1,34 @@
+2023-03-21T08:40:25+00:00 CRITICAL Uncaught Error: Class "UpsFreeVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\CollectionPoint\CollectionPointRateMethod" not found in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\flexible-shipping-ups\src\Plugin\Plugin.php:318
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): WPDesk\FlexibleShippingUps\Plugin->init_ups_access_points('')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): WooCommerce->init('')
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(617): do_action('init')
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-blog-header.php(13): require_once('C:\\xampp2\\htdoc...')
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\index.php(17): require('C:\\xampp2\\htdoc...')
+#12 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\flexible-shipping-ups\src\Plugin\Plugin.php on line 318
+
+2023-03-21T08:43:21+00:00 CRITICAL Uncaught Error: Class "UpsFreeVendor\WPDesk\WooCommerceShipping\ShippingMethod\RateMethod\CollectionPoint\CollectionPointRateMethod" not found in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\flexible-shipping-ups\src\Plugin\Plugin.php:318
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): WPDesk\FlexibleShippingUps\Plugin->init_ups_access_points('')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\class-woocommerce.php(667): do_action('woocommerce_ini...')
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): WooCommerce->init('')
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(617): do_action('init')
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-blog-header.php(13): require_once('C:\\xampp2\\htdoc...')
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\index.php(17): require('C:\\xampp2\\htdoc...')
+#12 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\flexible-shipping-ups\src\Plugin\Plugin.php on line 318
+

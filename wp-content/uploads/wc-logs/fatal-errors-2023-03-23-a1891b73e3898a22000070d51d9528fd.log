@@ -1,0 +1,26 @@
+2023-03-23T02:44:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 4541
+
+2023-03-23T02:45:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\action-scheduler\classes\abstracts\ActionScheduler.php on line 305
+
+2023-03-23T02:45:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypesController.php on line 258
+
+2023-03-23T02:46:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\core\admin\admin-notices.php on line 14
+
+2023-03-23T02:48:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\nextend-facebook-connect\admin\notice.php on line 4
+
+2023-03-23T02:48:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\modules\usage\module.php on line 12
+
+2023-03-23T02:48:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\block-patterns\query-offset-posts.php on line 9
+
+2023-03-23T03:19:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\Features\OnboardingTasks\Tasks\Tax.php on line 167
+
+2023-03-23T03:19:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\blocks.php on line 324
+
+2023-03-23T03:35:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\ultimate-member\includes\core\um-actions-wpadmin.php on line 1
+
+2023-03-23T03:37:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-notices.php on line 18
+
+2023-03-23T04:03:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\default-widgets.php on line 11
+
+2023-03-23T04:05:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 4541
+

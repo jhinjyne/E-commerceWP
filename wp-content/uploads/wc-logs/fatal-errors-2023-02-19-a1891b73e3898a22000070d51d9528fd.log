@@ -1,8 +1,0 @@
-2023-02-19T11:12:05+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\Requests\Transport\cURL.php on line 484
-
-2023-02-19T11:54:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\google-listings-and-ads\src\API\Site\Controllers\MerchantCenter\ShippingTimeControl2023-02-19T11:54:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\google-listings-and-ads\src\API\Site\Controllers\BatchSchemaTrait.php on line 6
-
-2023-02-19T12:31:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\woocommerce\src\Admin\API\Reports\Customers\DataStore.php on line 8
-
-2023-02-19T12:32:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\functions.php on line 4541
-

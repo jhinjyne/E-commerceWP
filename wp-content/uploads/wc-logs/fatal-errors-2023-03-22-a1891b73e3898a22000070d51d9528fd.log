@@ -1,0 +1,4 @@
+2023-03-22T05:45:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\PHPMailer\PHPMailer.php on line 5091
+
+2023-03-22T05:47:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\includes\admin-filters.php on line 11
+

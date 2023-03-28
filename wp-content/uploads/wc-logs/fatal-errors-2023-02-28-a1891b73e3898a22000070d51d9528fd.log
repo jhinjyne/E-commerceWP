@@ -1,0 +1,615 @@
+2023-02-28T00:25:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wpdb.php on line 2187
+
+2023-02-28T02:07:08+00:00 CRITICAL Out of memory (allocated 67108864) (tried to allocate 32768 bytes) in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\elementor\includes\widgets\icon-box.php on line 482
+
+2023-02-28T02:38:28+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:05+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugin-install.php(16): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:27+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:29+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:31+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:34+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:36+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:41+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:48+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:51+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:54+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:39:56+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:36+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:36+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:40+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:43+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:47+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:50+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:54+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:40:58+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\plugin-editor.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:41:01+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:41:16+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp2\\htdoc...')
+#20 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:41:27+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
+2023-02-28T02:49:55+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "w" in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php:41
+Stack trace:
+#0 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php(41): sprintf('http://localhos...', '4.7.0')
+#1 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Menu_Icons_Font_Awesome::_icon_type_stylesheet_uri('http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#2 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('http://localhos...', Array)
+#3 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(92): apply_filters('icon_picker_ico...', 'http://localhos...', 'fa', Object(Icon_Picker_Type_Font_Awesome))
+#4 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\base.php(86): Icon_Picker_Type_Font->get_stylesheet_uri()
+#5 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\types\font.php(110): Icon_Picker_Type->__get('stylesheet_uri')
+#6 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker_Type_Font->register_assets(Object(Icon_Picker_Loader))
+#7 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(110): do_action('icon_picker_loa...', Object(Icon_Picker_Loader))
+#10 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\includes\loader.php(86): Icon_Picker_Loader->__construct()
+#11 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(280): Icon_Picker_Loader::instance()
+#12 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\vendor\codeinwp\icon-picker\icon-picker.php(197): Icon_Picker->init_loader()
+#13 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(308): Icon_Picker->init('')
+#14 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-settings.php(639): do_action('wp_loaded')
+#17 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-config.php(96): require_once('C:\\xampp2\\htdoc...')
+#18 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-load.php(50): require_once('C:\\xampp2\\htdoc...')
+#19 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp2\\htdoc...')
+#20 C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-admin\post.php(12): require_once('C:\\xampp2\\htdoc...')
+#21 {main}
+  thrown in C:\xampp2\htdocs\learning wordpress\wordpress-6.1.1\wordpress\wp-content\plugins\menu-icons\includes\library\font-awesome\font-awesome.php on line 41
+
